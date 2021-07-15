@@ -1,0 +1,24 @@
+Исходный код
+public class Person {
+    public static boolean isTeenager(int age)
+    {
+        boolean result;
+        if (age < 19) {
+            result = true;
+        }
+        else {
+            result = false;
+        }
+        return result;
+    }
+}
+
+Обнаруженные ошибки:
+статус теста Failure при значении age = 19;
+статус теста Pass при значении ниже 13.
+
+В проверку возраста необходимо включить конкретный диапазон 13-19 включительно:
+if (age >=13 && age <= 19) {
+            result = true;
+        }
+Так же не лишним будет добавить проверку на отрицательное значение age.

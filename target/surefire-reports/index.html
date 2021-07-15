@@ -104,17 +104,17 @@
                     <div class="method-list-content failed suite-TestPerson">
                       <span>
                         <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestPerson" title="TestPerson" class="method navigator-link" hash-for-method="isTeenagerCorrect">isTeenagerCorrect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-TestPerson" title="TestPerson" class="method navigator-link" hash-for-method="isTeenagerCorrect(12, false)">isTeenagerCorrect(12, false)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-TestPerson" title="TestPerson" class="method navigator-link" hash-for-method="isTeenagerCorrect(0, false)">isTeenagerCorrect(0, false)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestPerson" title="TestPerson" class="method navigator-link" hash-for-method="isTeenagerCorrect(-1, false)">isTeenagerCorrect(-1, false)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -133,17 +133,17 @@
                     <div class="method-list-content passed suite-TestPerson">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestPerson" title="TestPerson" class="method navigator-link" hash-for-method="isTeenagerCorrect(13, true)">isTeenagerCorrect(13, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-TestPerson" title="TestPerson" class="method navigator-link" hash-for-method="isTeenagerCorrect(18, true)">isTeenagerCorrect(18, true)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-TestPerson" title="TestPerson" class="method navigator-link" hash-for-method="isTeenagerCorrect(20, false)">isTeenagerCorrect(20, false)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestPerson" title="TestPerson" class="method navigator-link" hash-for-method="isTeenagerCorrect(13, true)">isTeenagerCorrect(13, true)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-TestPerson -->
@@ -166,12 +166,23 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="isTeenagerCorrect">
+                  </a> <!-- isTeenagerCorrect -->
+                  <span class="method-name">isTeenagerCorrect</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;java.util.List.contains(Object)&quot; because the return value of &quot;java.util.Map.get(Object)&quot; is null
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="isTeenagerCorrect(12, false)">
                   </a> <!-- isTeenagerCorrect(12, false) -->
                   <span class="method-name">isTeenagerCorrect</span>
                   <span class="parameters">(12, false)</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
-	at TestPerson.isTeenagerCorrect(TestPerson.java:26)
+	at TestPerson.isTeenagerCorrect(TestPerson.java:25)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 42 stack frames
 </div> <!-- stack-trace -->
@@ -184,20 +195,7 @@
                   <span class="method-name">isTeenagerCorrect</span>
                   <span class="parameters">(0, false)</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
-	at TestPerson.isTeenagerCorrect(TestPerson.java:26)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 42 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="isTeenagerCorrect(-1, false)">
-                  </a> <!-- isTeenagerCorrect(-1, false) -->
-                  <span class="method-name">isTeenagerCorrect</span>
-                  <span class="parameters">(-1, false)</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
-	at TestPerson.isTeenagerCorrect(TestPerson.java:26)
+	at TestPerson.isTeenagerCorrect(TestPerson.java:25)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 42 stack frames
 </div> <!-- stack-trace -->
@@ -210,7 +208,7 @@
                   <span class="method-name">isTeenagerCorrect</span>
                   <span class="parameters">(19, true)</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at TestPerson.isTeenagerCorrect(TestPerson.java:26)
+	at TestPerson.isTeenagerCorrect(TestPerson.java:25)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 42 stack frames
 </div> <!-- stack-trace -->
@@ -226,6 +224,14 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="isTeenagerCorrect(13, true)">
+                  </a> <!-- isTeenagerCorrect(13, true) -->
+                  <span class="method-name">isTeenagerCorrect</span>
+                  <span class="parameters">(13, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="isTeenagerCorrect(18, true)">
                   </a> <!-- isTeenagerCorrect(18, true) -->
                   <span class="method-name">isTeenagerCorrect</span>
@@ -238,14 +244,6 @@
                   </a> <!-- isTeenagerCorrect(20, false) -->
                   <span class="method-name">isTeenagerCorrect</span>
                   <span class="parameters">(20, false)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="isTeenagerCorrect(13, true)">
-                  </a> <!-- isTeenagerCorrect(13, true) -->
-                  <span class="method-name">isTeenagerCorrect</span>
-                  <span class="parameters">(13, true)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -305,11 +303,11 @@ data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'isTeenagerCorrect')
 data.setCell(0, 2, 'TestPerson')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 16);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'isTeenagerCorrect')
 data.setCell(1, 2, 'TestPerson')
-data.setCell(1, 3, 0);
+data.setCell(1, 3, 16);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'isTeenagerCorrect')
 data.setCell(2, 2, 'TestPerson')
@@ -334,7 +332,7 @@ window.suiteTableData['TestPerson']= { tableData: data, tableDiv: 'times-div-Tes
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 32 ms</span>
               <div id="times-div-TestPerson">
               </div> <!-- times-div-TestPerson -->
             </div> <!-- times-div -->
@@ -362,29 +360,9 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">TestPerson</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">isTeenagerCorrect(18, true)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">isTeenagerCorrect(12, false)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">isTeenagerCorrect(20, false)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">isTeenagerCorrect(0, false)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">isTeenagerCorrect(-1, false)</span>
+                <span class="method-name">isTeenagerCorrect</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
@@ -395,7 +373,27 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">isTeenagerCorrect(13, true)</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">isTeenagerCorrect(12, false)</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">isTeenagerCorrect(0, false)</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isTeenagerCorrect(18, true)</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isTeenagerCorrect(20, false)</span>
+                <span class="method-start">16 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

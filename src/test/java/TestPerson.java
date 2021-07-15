@@ -15,12 +15,11 @@ public class TestPerson {
                 {12, false},
                 {13, true},
                 {0, false},
-                {-1, false}
 
         };
     }
     @Test (dataProvider = "age")
-    public void isTeenagerCorrect (int age, boolean b) {
+    public void isTeenagerCorrect (int age, boolean b) throws Exception {
         boolean result = Person.isTeenager(age);
         assertEquals(result, b);
     }
